@@ -1,0 +1,54 @@
+<html>
+<head>
+    
+<title>HTML Table</title>
+</head>
+<body>
+
+    <style>
+        body{
+            background-color:darkslategrey;
+        }
+        h1{
+            font-size:50px;
+            font-style:normal;
+            color:rgb(4, 29, 7);
+            align:center;
+        }
+    </style>
+    
+    <table border="4" align="center" bgcolor="#CCCCCC" >
+<caption><h1><pre>REGISTRATION FORM</pre></h1></caption>
+<tr>
+<th>ENTER YOUR NAME</th>
+<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required/></td>
+</tr>
+<tr>
+    <th>ENTER YOUR EMAIL</th>
+    <td><input type="email"/></td>
+    </tr>
+<tr>
+<th>SELECT GENDER</th>
+<td>
+male<input type="radio" name="g" value="m"/>
+female<input type="radio" name="g" value="f"/>
+</td>
+</tr>
+<tr>
+<th>ENTER BIRTH DATE</th>
+<td><input type="date"/></td>
+</tr>
+
+<tr>
+<th>UPLOAD YOUR PIC</th>
+<td><input type="file"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Save My Data"/>
+<input type="reset" value="Reset Data"/>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
